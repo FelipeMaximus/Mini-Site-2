@@ -12,4 +12,4 @@ Este projeto foi criado visando FINS EDUCATIVOS.
 
 ## Deploy on Vercel
 
-[Click aqui](https://mini-site-modelo.vercel.app/) para ver a live preview deste projeto.
+[Click aqui](https://felipemaximus.github.io/Mini-Site-2/) para ver a live preview deste projeto.
