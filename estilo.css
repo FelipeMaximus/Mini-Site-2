@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100%;
+    background-color: grey;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 3vw; /*Responsivo*/
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 2.5vw; /*Responsivo*/
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section.padrao{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(80, 77, 77);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.341);
+    background-size: cover;
+    background-attachment: fixed; /*Dica*/
+}
+
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(15, 15, 15, 0.437);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01{
+    background-image: url(a.jpg);
+    background-position: right center;
+}
+
+section#img02{
+    background-image: url(d.jpg);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
